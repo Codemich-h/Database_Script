@@ -1,5 +1,8 @@
 <?php
 
+// This code contains the database connection detaiils
+
+
 $connection_name = "Joke Database";
 try {
     $db_conn =new PDO('mysql:host=localhost;dbname=joke_db;charset=utf8','Joke_user','123456');
