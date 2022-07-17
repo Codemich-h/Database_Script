@@ -2,7 +2,7 @@
 
 
 
-//$page=true;
+//Contains the durability and validation of the success page
 
 if(isset($_POST['create_button']))
 {
