@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CREATE DATABASE TABLE</title>
-    <!-- Tailwind Css Script -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
+<!-- Header style starts here -->
+<?php include("includes/header.php"); ?>
+<style>
   .img_section {
   background: url("image/IMG1.jpg") center center;
 }
-</style>   
-</head>
-<body class="bg-black">
-
+</style> 
 <div class="h-screen flex">
           <div class="hidden lg:flex w-full lg:w-1/2 img_section
           justify-around items-center">
@@ -26,11 +16,11 @@
                   z-0"
                   >
            </div>
-      <div class="w-full mx-auto px-20 flex-col items-center space-y-6">
-              <h1 class="text-white font-bold text-4xl font-sans">Create MYSQL <br> Database tables </h1>
-              <p class="text-white mt-1">The simplest and easiest way to create tables </p>
+      <div class="w-full mx-auto px-24 pt-6 flex-col items-center space-y-4">
+              <h1 class="text-white font-bold text-2xl font-sans">ALTER Existing Database tables</h1>
+              <p class="text-white font-bold text-l mt-1">The simplest and easiest way to alter tables </p>
               <div class="flex justify-center lg:justify-start mt-6">
-                  <a href="#" class="hover:bg-indigo-700 hover:text-white hover:-translate-y-1 transition-all duration-500 bg-white text-indigo-800 mt-4 px-4 py-2 rounded-2xl font-bold mb-2">Get Started</a>
+                  <a href="add-col.php" class="hover:bg-indigo-700 hover:text-white hover:-translate-y-1 transition-all duration-500 bg-white text-indigo-800 mt-4 px-4 py-2 rounded-2xl font-bold mb-2">Get Started</a>
               </div>
             </div>
           </div>
@@ -44,8 +34,8 @@
             <div class="group flex justify-center pt-2 items-center">
               <div class="ltr:ml-3 rtl:mr-3">
             <img class="shrink-0 h-12 w-12 rounded-full" src="image/IMG5.jpg" alt="" />
-                <p class="text-m font-medium text-white">Omo Junior</p> 
-               <p class="text-m font-medium text-white">Backend Developer</p>
+                <p class="text-l font-medium text-white">Omo Junior</p> 
+               <p class="text-m font-medium text-white bg-blue-600 rounded border">Backend Developer</p>
              </div>
             </div>
              <br>
@@ -69,7 +59,7 @@
               <div class="flex items-center border-2 mb-8 py-2 px-3 rounded-2xl ">
               <input type="text" name="table_date" placeholder="Table_date" class="pl-2 w-full outline-none border-none"/>  
                </div>
-              <div class="text-red-600  mb-2 rounded-2xl">
+              <div class="text-white font-bold mb-2 rounded-2xl">
               <labe>Select an option to initialize the code. </labe>
               </div>
                <select class= "border-2 rounded-2xl border-indigo-600" name="inniate">

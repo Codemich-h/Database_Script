@@ -16,6 +16,13 @@ function start($inniate){
     $create_button = $_POST["create_button"];
     $inniate = htmlspecialchars($_POST["inniate"]);
 
+    if(!isset($create_button))
+       {
+        //validation not passed
+        $output = header("location:index.php");
+
+     }else{
+
    switch($inniate){
        case "on" :
             $output = "Action is on";
@@ -40,7 +47,7 @@ function start($inniate){
 
                 $output= "You database table created successfully";
                 
-            }
+            } 
 
             break;
 
@@ -58,6 +65,7 @@ function start($inniate){
         
 
    }
+  }
    return $output;
 
 }
