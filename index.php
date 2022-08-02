@@ -41,7 +41,7 @@
 
           <div class="flex w-full lg:w-1/2 justify-center items-center bg-black space-y-8">
             <div class="w-full px-8 md:px-32 lg:px-24">
-            <form class="bg-black rounded-md shadow-2xl p-5" method="post" action="success.php">
+            <form class="bg-black rounded-md shadow-2xl p-5" id="btn" method="post" action="success.php">
             <div class="group flex justify-center pt-2 items-center">
               <div class="ltr:ml-3 rtl:mr-3">
             <img class="shrink-0 h-12 w-12 rounded-full" src="image/IMG5.jpg" alt="" />
