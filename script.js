@@ -8,8 +8,8 @@ const createButton = document.getElementById('create_button');
 
 let error = {};
 
-form.addEventListener("submit", function (e) 
-{e.preventDefault ()
+form.addEventListener("submit", function (e) {
+    e.preventDefault ()
 checkEmpty();
 });
 
