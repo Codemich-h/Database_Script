@@ -54,21 +54,27 @@
               <p class="text-sm font-normal text-white mb-2">No coding knowledge needed.</p>
               <div class="flex items-center text-black border-2 mb-8 py-2 px-3 rounded-2xl">
                 <input  class="pl-2 w-full  border-none" id="table_name" type="text" name="table_name" placeholder="Table_name" />
+                <span class="block tableNameError text-red-500 text-xs hidden">Error</span>
               </div>
               <div class="flex items-center border-2 mb-8 py-2 px-3 rounded-2xl ">
-             <input type="text" id="table_id" name="table_id" placeholder="ID_CoL_name" class="pl-2 w-full outline-none border-none" />   
+             <input type="text" id="table_id" name="table_id" placeholder="ID_CoL_name" class="pl-2 w-full outline-none border-none" />
+             <span class="block tableIdError text-red-500 text-xs hidden">Error</span>   
               </div>
               <div class="flex items-center border-2 mb-8 py-2 px-3 rounded-2xl ">
               <input type="text" id="table_col1" name="table_col1" placeholder="Table_col1" class="pl-2 w-full outline-none border-none"/> 
+              <span class="block tableCol1Error text-red-500 text-xs hidden">Error</span>
               </div>
               <div class="flex items-center border-2 mb-8 py-2 px-3 rounded-2xl ">
-              <input type="text" id="table_col2" name="table_col2" placeholder="Table_col2" class="pl-2 w-full outline-none border-none"/> 
+              <input type="text" id="table_col2" name="table_col2" placeholder="Table_col2" class="pl-2 w-full outline-none border-none"/>
+              <span class="block tableCol2Error text-red-500 text-xs hidden">Error</span> 
               </div>
               <div class="flex items-center border-2 mb-8 py-2 px-3 rounded-2xl ">
               <input type="text" id="table_col3" name="table_col3" placeholder="Table_col3" class="pl-2 w-full outline-none border-none"/> 
+              <span class="block tableCol3Error text-red-500 text-xs hidden">Error</span>
               </div>
               <div class="flex items-center border-2 mb-8 py-2 px-3 rounded-2xl ">
               <input type="text" id="table_date" name="table_date" placeholder="Table_date" class="pl-2 w-full outline-none border-none"/>  
+              <span class="block tableDateError text-red-500 text-xs hidden">Error</span>
                </div>
               <div class="text-red-600  mb-2 rounded-2xl">
               <labe>Select an option to initialize the code. </labe>
