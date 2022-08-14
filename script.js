@@ -135,7 +135,8 @@ function displayError() {
         tableDateError.style.display = "block";
         tableDateError.innerHTML = error.tableDate;
     }
-
+ 
 }
 
 
+ 
